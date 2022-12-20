@@ -249,7 +249,7 @@ body {
     padding: 6px 0px;
     margin-left: 10px;
     margin-right: 10px;
-    border-color: #ffdd38;
+    border-color: white;
     border-radius: 20px;
     background-color: #ffdd38;
     text-align: center;
@@ -745,6 +745,28 @@ body {
     font-weight: bold;
     color: #9a9b9e;
 
+}
+
+.product-info-header {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.product-name {
+    margin-left: 20px;
+}
+
+.product-info-button {
+    border: solid 3px green;
+    border-radius: 7px;
+    color: green;
+    font-weight: bold;
+    padding: 10px;
+    height: 40px;
+    margin-left: 35%;
 }
 
 @media (max-width:1400px) {
