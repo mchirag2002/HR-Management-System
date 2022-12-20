@@ -15,6 +15,10 @@ body {
     width: 99%;
 }
 
+.selectt {
+    display: none;
+}
+
 .nav {
     /* height: 714px; */
     height: 100vh;
@@ -632,6 +636,115 @@ body {
 
 .box select option {
     padding: 30px;
+}
+
+.package-rate {
+    background: #fff;
+    padding: 15px 15px;
+    width: 270px;
+    box-shadow: 0px 0px 10px 0px #e0e4ea;
+    /* border-radius: 3px; */
+    transition: all 0.4s ease-in-out;
+}
+
+.package-rate:hover {
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 15px -2px #9a9b9e;
+}
+
+.package-rate:hover .book-btn {
+    bottom: 10px;
+}
+
+.package-rate:hover .price {
+    padding-top: 10px;
+}
+
+.package-rate:hover img {
+    transform: scale(1.01) rotate(3deg);
+    opacity: 0.85;
+}
+
+.package-rate .title {
+    color: #9a9b9e;
+    font-size: 12px;
+}
+
+.package-rate .thum {
+    overflow: hidden;
+    height: 50px;
+}
+
+.package-rate .thum img {
+    max-height: 50px;
+    transition: 0.4s;
+}
+
+.package-rate .price {
+    font-size: 15px;
+    padding: 10px 0;
+    color: BLACK;
+}
+
+/* .package-rate .price:before {
+    content: '$';
+    font-size: 20px;
+} */
+
+.package-includes li {
+    padding: 10px;
+    margin: 0;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+}
+
+.package-includes li:before {
+    content: "\f13c";
+    font-family: 'Flaticon';
+    color: #88c7b3;
+    padding-right: 10px;
+}
+
+.package-includes li:not(:last-child) {
+    border-bottom: 1px solid #88c7b3;
+}
+
+.active-jobs-content {
+    display: flex;
+}
+
+.package-area {
+    margin-left: 10px;
+    border-top: solid 3px #88c7b3;
+}
+
+.active-jobs-candidates {
+    margin: 30px;
+    font-size: small;
+    font-weight: bold;
+    color: #9a9b9e;
+}
+
+.active-jobs-buttons {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    border-top: solid 1px rgb(127, 127, 127, 0.2);
+    font-size: small;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+    color: #9a9b9e;
+}
+
+.active-jobs-buttons a {
+    margin-left: 90px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #9a9b9e;
+
 }
 
 @media (max-width:1400px) {
